@@ -7,6 +7,6 @@ La distancia esta en cm.
 La velocidad debe estar dentro del rango 0-255.
 
 Ejemplo:
- Robot.Modo_Evasor(255,5);
- la velocidad con la que avanzara el robot sera de 255
- El robot detectara el objeto a 5 cm
+Robot.Modo_Evasor(255,5);
+La velocidad con la que avanzara el robot sera de 255
+El robot detectara el objeto a 5 cm
