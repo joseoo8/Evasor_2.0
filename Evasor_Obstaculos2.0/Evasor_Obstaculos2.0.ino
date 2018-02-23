@@ -6,5 +6,6 @@ void setup()
 }
 void loop()
 {
-  Robot_Evasor.Modo_Evasor(255);
+  Robot_Evasor.Modo_Evasor(255,9);
 }
+

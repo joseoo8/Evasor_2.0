@@ -25,7 +25,7 @@ void Evasor::Stop()
 {
   Robot.Stop();
 }
-void Evasor::Modo_Evasor(int Velocidad)
+void Evasor::Modo_Evasor(int Velocidad,int Distancia)
 {
 	float Distancia_1;
 	float Distancia_2;
@@ -38,7 +38,7 @@ void Evasor::Modo_Evasor(int Velocidad)
     Servo_1.write(90);
     Distancia_1=S1.Obtener_Distancia();
 
-    if(Distancia_1 < 5)   
+    if(Distancia_1 < Distancia)   
     {
       Stop();
       Servo_1.write(20);

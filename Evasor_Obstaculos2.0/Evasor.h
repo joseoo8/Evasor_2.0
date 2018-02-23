@@ -24,7 +24,7 @@ public:
 	Robot(Pin_Motor_1A, Pin_Motor_1B, PWM_1, Pin_Motor_1C, Pin_Motor_1D, PWM_2),
 	S1(echo_1,trig_1){Pin_Servo=pin_servo;}
 	void Inicializar();
-	void Modo_Evasor(int Velocidad);
+	void Modo_Evasor(int Velocidad,int Distancia);
 	void Izquierda(int Velocidad_1,int Velocidad_2);
   void Derecha(int Velocidad_1,int Velocidad_2);
 	void Adelante(int Velocidad_1,int Velocidad_2);
